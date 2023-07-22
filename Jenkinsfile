@@ -10,7 +10,7 @@ pipeline{
     stages{
         stage('vcs') {
             steps{
-                git url: 'https://github.com/divyakothuru311/game-of-life-jenkins.git'
+                git url: 'https://github.com/divyakothuru311/game-of-life-jenkins'
                     branch: 'master'
             }
         }
